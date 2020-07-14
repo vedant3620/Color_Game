@@ -1,33 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="colorGame.css" />
-    <title>Color Game</title>
+    <meta charset="utf-8" />
+    <title>Alpha Games</title>
+    <link rel="stylesheet" href="files/main.css" />
   </head>
   <body>
-    <h1>THE GREAT <span id="colorDisplay">RBG</span> COLOR GAME</h1>
+    <div class="head">
+      The Grand
+      <div id="heading">ALPHA GAMES</div>
+      Fun at Your Finger Tips
+    </div>
+    <div class="middle">
+      <marquee> Select Your Favourite Game!!</marquee>
+    </div>
+    <div class="main">
+      <div class="container">
+        <div class="games">
+          <img src="files/tic.jpg" alt="" width="95%" />
+          <a href="tictactoe/TicTacToe.html" target="_blank"
+            ><div class="name">Tic Tac Toe</div></a
+          >
+        </div>
 
-    <div id="stripe">
-      <button id="reset">New Colors</button>
-      <span id="message"></span>
-      <button class="mode">Easy</button>
-      <button class="mode">Normal</button>
-      <button class="mode selected">Hard</button>
+        <div class="games">
+          <img src="files/brain.jpg" alt="" width="95%" />
+          <a href="memorygame/Memorygame.html" target="_blank"
+            ><div class="name">Memory Game</div></a
+          >
+        </div>
+
+        <div class="games">
+          <img src="files/logo.png" alt="" width="95%" />
+          <a href="colorgame/colorgame.html" target="_blank"
+            ><div class="name">Color Game</div></a
+          >
+        </div>
+      </div>
     </div>
 
-    <div id="container">
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
-      <div class="square"></div>
+    <div class="head bottom">
+      Designed And Developed By Vedant Goyal!!
     </div>
-    <script src="colorGame.js"></script>
   </body>
 </html>
